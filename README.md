@@ -24,10 +24,15 @@ The dataset online_sales.csv contains order data with the following columns:
 
 # Steps Followed
 1.Extracted the year and month from the order_date using EXTRACT().
+
 2.Grouped the data by year and month.
+
 3.Summed the amount to calculate total revenue.
+
 4.Counted the distinct order_id to get the order volume.
+
 5.Ordered the result by year and month for a chronological view.
+
 6.Filtered the results using ORDER BY total_revenue DESC and LIMIT 3 to get the top 3 months by sales.
 
 # Results
