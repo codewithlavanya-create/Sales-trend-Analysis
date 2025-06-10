@@ -4,20 +4,22 @@ Analyze monthly revenue and order volume from the online_sales dataset using SQL
 
 # SQL Script
 The sales_trend_analysis.sql file contains the SQL query used to calculate:
-
 • Total Revenue for each month.
+
 • Order Volume (the number of distinct orders) for each month.
 
 The top_3_months_by_sales.sql file contains a query that extracts:
-
-• Top 3 Months by Total Revenue using ORDER BY total_revenue DESC LIMIT 3.
+Top 3 Months by Total Revenue using ORDER BY total_revenue DESC LIMIT 3.
 
 # Dataset
 The dataset online_sales.csv contains order data with the following columns:
 
 • order_id: The unique ID of the order
+
 • order_date: The date the order was placed
+
 • amount: The total amount of the order
+
 • product_id: The product associated with  the order
 
 # Steps Followed
